@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pet1">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/emptyprofilepic"
+        tools:ignore="MissingConstraints,VectorDrawableCompat"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Button
+        android:id="@+id/chooseBtn3"
+        android:layout_width="82dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        android:text="Add \nImage"
+        android:textAllCaps="false"
+        android:textSize="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:fontFamily="@font/arialbd"
+        android:text="Species"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:fontFamily="@font/arialbd"
+        android:text="Sex"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:fontFamily="@font/arialbd"
+        android:text="Breed"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arialbd"
+        android:text="Coat"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arialbd"
+        android:text="Date of Birth"
+        android:textColor="@color/pink"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <Button
+        android:id="@+id/btnBack3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arialbd"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="130dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

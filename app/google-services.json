@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "612481397419",
+    "project_id": "fourfeet-71e45",
+    "storage_bucket": "fourfeet-71e45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612481397419:android:7944328ccdb1a22d44fdee",
+        "android_client_info": {
+          "package_name": "com.example.fourfeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612481397419-lhucd445s5ht2oarfeqq949u1490k76s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDngAvndkl2gEszxWkM095bbszxP_kc4r0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612481397419-lhucd445s5ht2oarfeqq949u1490k76s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

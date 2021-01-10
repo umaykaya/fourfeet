@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    tools:context=".Add2">
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:textAllCaps="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText7"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        tools:ignore="MissingConstraints"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText6"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        tools:ignore="MissingConstraints"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText9"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        android:inputType="date"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText8"
+        android:layout_width="132dp"
+        android:inputType="date"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextDate4"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        android:inputType="date"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextDate5"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        android:inputType="numberDecimal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText4"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        android:inputType="numberDecimal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText5"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        tools:ignore="MissingConstraints"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText2"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        tools:ignore="MissingConstraints"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText3"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        android:inputType="date"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date of the\nlast treatment"
+        android:textColor="@color/white"
+        android:fontFamily="@font/arialbd"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="67dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arialbd"
+        android:text="period \nin days"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="132dp"
+        android:inputType="date"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText"
+        android:layout_width="132dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint=""
+        android:inputType="numberDecimal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="done"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="284dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
